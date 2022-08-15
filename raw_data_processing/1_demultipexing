@@ -1,0 +1,1 @@
+SlurmEasy -m 20G -t 6 --tempdir .  "demux.py *.gz -hd 1 --y -merge _ "
